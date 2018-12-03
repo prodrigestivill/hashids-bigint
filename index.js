@@ -3,7 +3,7 @@
 const Hashids = require('hashids');
 const bigInt = require('big-integer');
 
-export default class BIHashids extends Hashids {
+module.exports = class HashidsBI extends Hashids {
 
   encodeBI(id) {
     // bigInt throws an exception on wrong input

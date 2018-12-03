@@ -3,12 +3,14 @@
 
 **Hashids** is small JavaScript library to generate YouTube-like ids from numbers. Use it when you don't want to expose your database ids to the user.
 
-This is only a wrapper to add BigInt support to the original library:  [http://hashids.org/javascript](http://hashids.org/javascript)
+This is only a wrapper to add BigInt support to the original library:  [http://hashids.org/javascript](http://hashids.org/javascript).
+
+A [pull request](https://github.com/ivanakimov/hashids.js/pull/58) is also open on the original project in order to allow avoid this wrapper.
 
 Getting started
 -------
 
-Install Hashids via [node.js](https://nodejs.org): `npm install --save bigint-hashids`
+Install Hashids via [node.js](https://nodejs.org): `npm install --save hashids-bigint`
 
 Use in Node.js:
 
