@@ -1,0 +1,35 @@
+{
+  "name": "hashids-bigint",
+  "version": "1.0.0",
+  "description": "Generate YouTube-like ids from Big Integer numbers (BigInt). Use Hashids when you do not want to expose your database ids to the user.",
+  "main": "index.js",
+  "author": "Pau Rodriguez-Estivill",
+  "homepage": "https://github.com/prodrigestivill/hashids-bigint/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prodrigestivill/hashids-bigint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prodrigestivill/hashids-bigint/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "big-integer": "^1.6.38",
+    "hashids": "^1.2.2"
+  },
+  "keywords": [
+    "hashids",
+    "hashid",
+    "hash",
+    "ids",
+    "bigint",
+    "int64",
+    "youtube",
+    "bitly",
+    "obfuscate",
+    "encode",
+    "decode",
+    "encrypt",
+    "decrypt"
+  ]
+}
